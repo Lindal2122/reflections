@@ -1,0 +1,21 @@
+What happens when you initialize a repository? Why do you need to do it?
+So you can start working with your code.
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+You have not commited files to the master branch unless you stage it and then move it to the master version. You don't have to commit files you are not ready to add that you can work on in your working directory.
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+You should only add content that covers one change at a time to a commit. So you can later troubleshoot if necessary or revert files if you create an error with your new code.
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+How do the diagrams help you visualize the branch structure?
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
+manually?
