@@ -1,0 +1,35 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    It allwed me to compare small areas of differences which was easier to view than visually searching two large files.
+
+How could having easy access to the entire history of a file make you a better
+programmer in the long term?
+
+    It could show me old versions that had information I lost when testing a new version of the code.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+    
+    Pros: Able to commit when logicaly working on one part of the code. Google docs may save a half finished version of the code change.
+    Cons: I may save too much at a time or forget to save.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Change in one document may be inter-related to another document change that is done at the same time and you would need to review both docs with the same version changes. Google docs is most likely for business needs version control on separate documents. Programmers need to have versions of groups of documents when versioning.
+
+How can you use the commands git log and git diff to view the history of files?
+    
+    Using git log will show you all the commit author notes for the version changes. 
+    Using git diff will show you the specific code change and how many lines were changed.
+
+How might using version control make you more confident to make changes that
+could break something?
+    
+    If you can find an older version before the item was broken and compare it against the change that introduced the error then you can fix the error in your current code by adding back/correcting just that code change that caused the error so it fixes.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Working on my Nanodegree project.
