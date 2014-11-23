@@ -11,11 +11,16 @@ You should only add content that covers one change at a time to a commit. So you
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+When you are testing out changing or experimenting with your project for other capabilities or functions, but don't want it to affect the master path of the project unless implemented. Also to fix a bug, to test and fix as a separate project.
 
 How do the diagrams help you visualize the branch structure?
+Allow you to visualize where your changes were from and what changes/fixes the master branch has had since you moved onto a separete branch.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+It will update the master to include the new code created to be part of the project now so that any other changes will include the new content.
+The diagram helps you see what changes were going to be included in the merge and which are still separate branches that are not part of the master.
 
-What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
+What are the pros and cons of Gits automatic merging vs. always doing merges
 manually?
+You don't have to solve the easy merge issues. The negative is either person may have removed some necessary code introducing an issue that will not be caught till later.
